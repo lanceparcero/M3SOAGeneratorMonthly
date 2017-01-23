@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ad644c46b4924dc384b1182c8d14ca09" Name="Diagram1" ZoomLevel="12">
+        <EntityTypeShape EntityType="M3Model.bil_SettlementCutOff" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.m3_EmailAttachment" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.m3_EmailRecipient" Width="1.5" PointX="5.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.m3_EmailSender" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.m3_merchant" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.vw_MerchantFirstContact" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.vw_SOAMonthlyHeaders" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M3Model.vw_SOAMonthlyTransaction" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="M3Model.FK_m3_EmailAttachment_m3_EmailSender" ManuallyRouted="false" />
+        <AssociationConnector Association="M3Model.FK_m3_EmailRecipient_m3_EmailSender" ManuallyRouted="false" />
+        <AssociationConnector Association="M3Model.FK_m3_EmailSender_m3_merchant" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="M3Model.bil_MonthlySettlementCutOff" Width="1.5" PointX="4.191704522907596" PointY="8.7052418481117311" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

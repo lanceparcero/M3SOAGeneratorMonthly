@@ -1,0 +1,10 @@
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\SOAEmailSenderMonthly.exe.config
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\SOAEmailSenderMonthly.exe
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\SOAEmailSenderMonthly.pdb
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\EntityFramework.dll
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\EPPlus.dll
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\GemBox.Spreadsheet.dll
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\bin\Debug\EntityFramework.xml
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\obj\Debug\SOAEmailSenderMonthly.exe
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\obj\Debug\SOAEmailSenderMonthly.pdb
+E:\GIT REPOSITORIES\M3SOAGeneratorMonthly\SOAEmailSenderMonthly\SOAEmailSenderMonthly\obj\Debug\SOAEmailSenderMonthly.csprojResolveAssemblyReference.cache

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="M3ModelStoreContainer" CdmEntityContainer="M3Entities">
+    <EntitySetMapping Name="bil_SettlementCutOff">
+      <EntityTypeMapping TypeName="M3Model.bil_SettlementCutOff">
+        <MappingFragment StoreEntitySet="bil_SettlementCutOff">
+          <ScalarProperty Name="SettlementCutOffID" ColumnName="SettlementCutOffID" />
+          <ScalarProperty Name="settlement_date" ColumnName="settlement_date" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="InternalCompanyID" ColumnName="InternalCompanyID" />
+          <ScalarProperty Name="CorporateID" ColumnName="CorporateID" />
+          <ScalarProperty Name="AcquirerID" ColumnName="AcquirerID" />
+          <ScalarProperty Name="settlement_batch_id" ColumnName="settlement_batch_id" />
+          <ScalarProperty Name="CurrentBalance" ColumnName="CurrentBalance" />
+          <ScalarProperty Name="Transaction_GrossAmount" ColumnName="Transaction_GrossAmount" />
+          <ScalarProperty Name="Transaction_MerchantMDRAmount" ColumnName="Transaction_MerchantMDRAmount" />
+          <ScalarProperty Name="Transaction_MerchantVATAmount" ColumnName="Transaction_MerchantVATAmount" />
+          <ScalarProperty Name="Transaction_MerchantWHTAmount" ColumnName="Transaction_MerchantWHTAmount" />
+          <ScalarProperty Name="Transaction_MerchantMDRWHTAmount" ColumnName="Transaction_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="Transaction_BankMDRAmount" ColumnName="Transaction_BankMDRAmount" />
+          <ScalarProperty Name="Transaction_BankVATAmount" ColumnName="Transaction_BankVATAmount" />
+          <ScalarProperty Name="Transaction_BankWHTAmount" ColumnName="Transaction_BankWHTAmount" />
+          <ScalarProperty Name="Transaction_BankMDRWHTAmount" ColumnName="Transaction_BankMDRWHTAmount" />
+          <ScalarProperty Name="Transaction_BankGrossAmountReceivable" ColumnName="Transaction_BankGrossAmountReceivable" />
+          <ScalarProperty Name="Transaction_BankGrossAmountReceivableWHTAmount" ColumnName="Transaction_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="Transaction_BankNetAmountReceivable" ColumnName="Transaction_BankNetAmountReceivable" />
+          <ScalarProperty Name="Transaction_NetAmount" ColumnName="Transaction_NetAmount" />
+          <ScalarProperty Name="Chargeback_GrossAmount" ColumnName="Chargeback_GrossAmount" />
+          <ScalarProperty Name="Chargeback_MerchantMDRAmount" ColumnName="Chargeback_MerchantMDRAmount" />
+          <ScalarProperty Name="Chargeback_MerchantVATAmount" ColumnName="Chargeback_MerchantVATAmount" />
+          <ScalarProperty Name="Chargeback_MerchantWHTAmount" ColumnName="Chargeback_MerchantWHTAmount" />
+          <ScalarProperty Name="Chargeback_MerchantMDRWHTAmount" ColumnName="Chargeback_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="Chargeback_BankMDRAmount" ColumnName="Chargeback_BankMDRAmount" />
+          <ScalarProperty Name="Chargeback_BankVATAmount" ColumnName="Chargeback_BankVATAmount" />
+          <ScalarProperty Name="Chargeback_BankWHTAmount" ColumnName="Chargeback_BankWHTAmount" />
+          <ScalarProperty Name="Chargeback_BankMDRWHTAmount" ColumnName="Chargeback_BankMDRWHTAmount" />
+          <ScalarProperty Name="Chargeback_BankGrossAmountReceivable" ColumnName="Chargeback_BankGrossAmountReceivable" />
+          <ScalarProperty Name="Chargeback_BankGrossAmountReceivableWHTAmount" ColumnName="Chargeback_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="Chargeback_BankNetAmountReceivable" ColumnName="Chargeback_BankNetAmountReceivable" />
+          <ScalarProperty Name="Chargeback_NetAmount" ColumnName="Chargeback_NetAmount" />
+          <ScalarProperty Name="Refund_GrossAmount" ColumnName="Refund_GrossAmount" />
+          <ScalarProperty Name="Refund_MerchantMDRAmount" ColumnName="Refund_MerchantMDRAmount" />
+          <ScalarProperty Name="Refund_MerchantVATAmount" ColumnName="Refund_MerchantVATAmount" />
+          <ScalarProperty Name="Refund_MerchantWHTAmount" ColumnName="Refund_MerchantWHTAmount" />
+          <ScalarProperty Name="Refund_MerchantMDRWHTAmount" ColumnName="Refund_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="Refund_BankMDRAmount" ColumnName="Refund_BankMDRAmount" />
+          <ScalarProperty Name="Refund_BankVATAmount" ColumnName="Refund_BankVATAmount" />
+          <ScalarProperty Name="Refund_BankWHTAmount" ColumnName="Refund_BankWHTAmount" />
+          <ScalarProperty Name="Refund_BankMDRWHTAmount" ColumnName="Refund_BankMDRWHTAmount" />
+          <ScalarProperty Name="Refund_BankGrossAmountReceivable" ColumnName="Refund_BankGrossAmountReceivable" />
+          <ScalarProperty Name="Refund_BankGrossAmountReceivableWHTAmount" ColumnName="Refund_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="Refund_BankNetAmountReceivable" ColumnName="Refund_BankNetAmountReceivable" />
+          <ScalarProperty Name="Refund_NetAmount" ColumnName="Refund_NetAmount" />
+          <ScalarProperty Name="TransactionAdjustment_GrossAmount" ColumnName="TransactionAdjustment_GrossAmount" />
+          <ScalarProperty Name="TransactionAdjustment_MerchantMDRAmount" ColumnName="TransactionAdjustment_MerchantMDRAmount" />
+          <ScalarProperty Name="TransactionAdjustment_MerchantVATAmount" ColumnName="TransactionAdjustment_MerchantVATAmount" />
+          <ScalarProperty Name="TransactionAdjustment_MerchantWHTAmount" ColumnName="TransactionAdjustment_MerchantWHTAmount" />
+          <ScalarProperty Name="TransactionAdjustment_MerchantMDRWHTAmount" ColumnName="TransactionAdjustment_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankMDRAmount" ColumnName="TransactionAdjustment_BankMDRAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankVATAmount" ColumnName="TransactionAdjustment_BankVATAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankWHTAmount" ColumnName="TransactionAdjustment_BankWHTAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankMDRWHTAmount" ColumnName="TransactionAdjustment_BankMDRWHTAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankGrossAmountReceivable" ColumnName="TransactionAdjustment_BankGrossAmountReceivable" />
+          <ScalarProperty Name="TransactionAdjustment_BankGrossAmountReceivableWHTAmount" ColumnName="TransactionAdjustment_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="TransactionAdjustment_BankNetAmountReceivable" ColumnName="TransactionAdjustment_BankNetAmountReceivable" />
+          <ScalarProperty Name="TransactionAdjustment_NetAmount" ColumnName="TransactionAdjustment_NetAmount" />
+          <ScalarProperty Name="AdjustmentAmount" ColumnName="AdjustmentAmount" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="Fraud_GrossAmount" ColumnName="Fraud_GrossAmount" />
+          <ScalarProperty Name="Fraud_MerchantMDRAmount" ColumnName="Fraud_MerchantMDRAmount" />
+          <ScalarProperty Name="Fraud_MerchantVATAmount" ColumnName="Fraud_MerchantVATAmount" />
+          <ScalarProperty Name="Fraud_MerchantWHTAmount" ColumnName="Fraud_MerchantWHTAmount" />
+          <ScalarProperty Name="Fraud_MerchantMDRWHTAmount" ColumnName="Fraud_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="Fraud_BankMDRAmount" ColumnName="Fraud_BankMDRAmount" />
+          <ScalarProperty Name="Fraud_BankVATAmount" ColumnName="Fraud_BankVATAmount" />
+          <ScalarProperty Name="Fraud_BankWHTAmount" ColumnName="Fraud_BankWHTAmount" />
+          <ScalarProperty Name="Fraud_BankMDRWHTAmount" ColumnName="Fraud_BankMDRWHTAmount" />
+          <ScalarProperty Name="Fraud_BankGrossAmountReceivable" ColumnName="Fraud_BankGrossAmountReceivable" />
+          <ScalarProperty Name="Fraud_BankGrossAmountReceivableWHTAmount" ColumnName="Fraud_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="Fraud_BankNetAmountReceivable" ColumnName="Fraud_BankNetAmountReceivable" />
+          <ScalarProperty Name="Fraud_NetAmount" ColumnName="Fraud_NetAmount" />
+          <ScalarProperty Name="FraudRelease_GrossAmount" ColumnName="FraudRelease_GrossAmount" />
+          <ScalarProperty Name="FraudRelease_MerchantMDRAmount" ColumnName="FraudRelease_MerchantMDRAmount" />
+          <ScalarProperty Name="FraudRelease_MerchantVATAmount" ColumnName="FraudRelease_MerchantVATAmount" />
+          <ScalarProperty Name="FraudRelease_MerchantWHTAmount" ColumnName="FraudRelease_MerchantWHTAmount" />
+          <ScalarProperty Name="FraudRelease_MerchantMDRWHTAmount" ColumnName="FraudRelease_MerchantMDRWHTAmount" />
+          <ScalarProperty Name="FraudRelease_BankMDRAmount" ColumnName="FraudRelease_BankMDRAmount" />
+          <ScalarProperty Name="FraudRelease_BankVATAmount" ColumnName="FraudRelease_BankVATAmount" />
+          <ScalarProperty Name="FraudRelease_BankWHTAmount" ColumnName="FraudRelease_BankWHTAmount" />
+          <ScalarProperty Name="FraudRelease_BankMDRWHTAmount" ColumnName="FraudRelease_BankMDRWHTAmount" />
+          <ScalarProperty Name="FraudRelease_BankGrossAmountReceivable" ColumnName="FraudRelease_BankGrossAmountReceivable" />
+          <ScalarProperty Name="FraudRelease_BankGrossAmountReceivableWHTAmount" ColumnName="FraudRelease_BankGrossAmountReceivableWHTAmount" />
+          <ScalarProperty Name="FraudRelease_BankNetAmountReceivable" ColumnName="FraudRelease_BankNetAmountReceivable" />
+          <ScalarProperty Name="FraudRelease_NetAmount" ColumnName="FraudRelease_NetAmount" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="SettlementMovementFlag" ColumnName="SettlementMovementFlag" />
+          <ScalarProperty Name="SOASendEmail" ColumnName="SOASendEmail" />
+          <ScalarProperty Name="EmailSenderID" ColumnName="EmailSenderID" />
+          <ScalarProperty Name="account_bank" ColumnName="account_bank" />
+          <ScalarProperty Name="account_bank_branch_name" ColumnName="account_bank_branch_name" />
+          <ScalarProperty Name="account_no" ColumnName="account_no" />
+          <ScalarProperty Name="account_name" ColumnName="account_name" />
+          <ScalarProperty Name="GIRO_merchantbankcode" ColumnName="GIRO_merchantbankcode" />
+          <ScalarProperty Name="GIRO_bankcode" ColumnName="GIRO_bankcode" />
+          <ScalarProperty Name="GIROEnabled" ColumnName="GIROEnabled" />
+          <ScalarProperty Name="GIROStatus" ColumnName="GIROStatus" />
+          <ScalarProperty Name="ADABankID" ColumnName="ADABankID" />
+          <ScalarProperty Name="ADAReferenceNo" ColumnName="ADAReferenceNo" />
+          <ScalarProperty Name="ADAmerchantbankcode" ColumnName="ADAmerchantbankcode" />
+          <ScalarProperty Name="ADAStatus" ColumnName="ADAStatus" />
+          <ScalarProperty Name="ADAEnabled" ColumnName="ADAEnabled" />
+          <ScalarProperty Name="CollectionBankID" ColumnName="CollectionBankID" />
+          <ScalarProperty Name="CollectionBankADAFee" ColumnName="CollectionBankADAFee" />
+          <ScalarProperty Name="CollectionBankAccount" ColumnName="CollectionBankAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="m3_EmailAttachment">
+      <EntityTypeMapping TypeName="M3Model.m3_EmailAttachment">
+        <MappingFragment StoreEntitySet="m3_EmailAttachment">
+          <ScalarProperty Name="EmailAttachmentID" ColumnName="EmailAttachmentID" />
+          <ScalarProperty Name="EmailSenderID" ColumnName="EmailSenderID" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="FilePathType" ColumnName="FilePathType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="m3_EmailRecipient">
+      <EntityTypeMapping TypeName="M3Model.m3_EmailRecipient">
+        <MappingFragment StoreEntitySet="m3_EmailRecipient">
+          <ScalarProperty Name="EmailRecipientID" ColumnName="EmailRecipientID" />
+          <ScalarProperty Name="EmailSenderID" ColumnName="EmailSenderID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="RecipientType" ColumnName="RecipientType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="m3_EmailSender">
+      <EntityTypeMapping TypeName="M3Model.m3_EmailSender">
+        <MappingFragment StoreEntitySet="m3_EmailSender">
+          <ScalarProperty Name="EmailSenderID" ColumnName="EmailSenderID" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="RetryCount" ColumnName="RetryCount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CorporateID" ColumnName="CorporateID" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="LastRunError" ColumnName="LastRunError" />
+          <ScalarProperty Name="LastRunDate" ColumnName="LastRunDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="m3_merchant">
+      <EntityTypeMapping TypeName="M3Model.m3_merchant">
+        <MappingFragment StoreEntitySet="m3_merchant">
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="ghl_merchant_id" ColumnName="ghl_merchant_id" />
+          <ScalarProperty Name="merchant_status" ColumnName="merchant_status" />
+          <ScalarProperty Name="merchant_short_name" ColumnName="merchant_short_name" />
+          <ScalarProperty Name="registration_id" ColumnName="registration_id" />
+          <ScalarProperty Name="registration_name" ColumnName="registration_name" />
+          <ScalarProperty Name="registration_date" ColumnName="registration_date" />
+          <ScalarProperty Name="trading_name" ColumnName="trading_name" />
+          <ScalarProperty Name="merchant_category_code" ColumnName="merchant_category_code" />
+          <ScalarProperty Name="tax_id" ColumnName="tax_id" />
+          <ScalarProperty Name="biz_address1" ColumnName="biz_address1" />
+          <ScalarProperty Name="biz_address2" ColumnName="biz_address2" />
+          <ScalarProperty Name="biz_address3" ColumnName="biz_address3" />
+          <ScalarProperty Name="biz_city" ColumnName="biz_city" />
+          <ScalarProperty Name="biz_state" ColumnName="biz_state" />
+          <ScalarProperty Name="biz_zip" ColumnName="biz_zip" />
+          <ScalarProperty Name="biz_country" ColumnName="biz_country" />
+          <ScalarProperty Name="mail_address_as_biz" ColumnName="mail_address_as_biz" />
+          <ScalarProperty Name="mail_address1" ColumnName="mail_address1" />
+          <ScalarProperty Name="mail_address2" ColumnName="mail_address2" />
+          <ScalarProperty Name="mail_address3" ColumnName="mail_address3" />
+          <ScalarProperty Name="mail_city" ColumnName="mail_city" />
+          <ScalarProperty Name="mail_state" ColumnName="mail_state" />
+          <ScalarProperty Name="mail_zip" ColumnName="mail_zip" />
+          <ScalarProperty Name="mail_country" ColumnName="mail_country" />
+          <ScalarProperty Name="sales_code" ColumnName="sales_code" />
+          <ScalarProperty Name="sales_geo_distribution" ColumnName="sales_geo_distribution" />
+          <ScalarProperty Name="max_tx_amount" ColumnName="max_tx_amount" />
+          <ScalarProperty Name="max_expected_weekly_sales" ColumnName="max_expected_weekly_sales" />
+          <ScalarProperty Name="account_bank" ColumnName="account_bank" />
+          <ScalarProperty Name="account_bank_branch_name" ColumnName="account_bank_branch_name" />
+          <ScalarProperty Name="account_no" ColumnName="account_no" />
+          <ScalarProperty Name="account_name" ColumnName="account_name" />
+          <ScalarProperty Name="payment_method" ColumnName="payment_method" />
+          <ScalarProperty Name="update_status" ColumnName="update_status" />
+          <ScalarProperty Name="update_description" ColumnName="update_description" />
+          <ScalarProperty Name="update_by_user_id" ColumnName="update_by_user_id" />
+          <ScalarProperty Name="update_by_username" ColumnName="update_by_username" />
+          <ScalarProperty Name="update_by_date" ColumnName="update_by_date" />
+          <ScalarProperty Name="terminate_date" ColumnName="terminate_date" />
+          <ScalarProperty Name="audit_id" ColumnName="audit_id" />
+          <ScalarProperty Name="approve_by_user_id" ColumnName="approve_by_user_id" />
+          <ScalarProperty Name="approve_by_username" ColumnName="approve_by_username" />
+          <ScalarProperty Name="approve_by_date" ColumnName="approve_by_date" />
+          <ScalarProperty Name="approve_id" ColumnName="approve_id" />
+          <ScalarProperty Name="actual_flag" ColumnName="actual_flag" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="CorporateID" ColumnName="CorporateID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="MerchantAccountType" ColumnName="MerchantAccountType" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="LastUpdateDate" ColumnName="LastUpdateDate" />
+          <ScalarProperty Name="TemplateTMSID" ColumnName="TemplateTMSID" />
+          <ScalarProperty Name="StoreCode" ColumnName="StoreCode" />
+          <ScalarProperty Name="AcquirerID" ColumnName="AcquirerID" />
+          <ScalarProperty Name="InitialInstallation" ColumnName="InitialInstallation" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ZuelligCode" ColumnName="ZuelligCode" />
+          <ScalarProperty Name="PfizerCode" ColumnName="PfizerCode" />
+          <ScalarProperty Name="BrandID" ColumnName="BrandID" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="MSE" ColumnName="MSE" />
+          <ScalarProperty Name="MSO" ColumnName="MSO" />
+          <ScalarProperty Name="ReferredBy" ColumnName="ReferredBy" />
+          <ScalarProperty Name="MDR" ColumnName="MDR" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="MASE" ColumnName="MASE" />
+          <ScalarProperty Name="ISO" ColumnName="ISO" />
+          <ScalarProperty Name="ISA" ColumnName="ISA" />
+          <ScalarProperty Name="RentalType" ColumnName="RentalType" />
+          <ScalarProperty Name="MerchantCategory" ColumnName="MerchantCategory" />
+          <ScalarProperty Name="ADAReferenceNo" ColumnName="ADAReferenceNo" />
+          <ScalarProperty Name="ApplicationType" ColumnName="ApplicationType" />
+          <ScalarProperty Name="BankAccount" ColumnName="BankAccount" />
+          <ScalarProperty Name="BankClarif" ColumnName="BankClarif" />
+          <ScalarProperty Name="BankReferral" ColumnName="BankReferral" />
+          <ScalarProperty Name="BankStatus" ColumnName="BankStatus" />
+          <ScalarProperty Name="BlitzName" ColumnName="BlitzName" />
+          <ScalarProperty Name="BusinessType" ColumnName="BusinessType" />
+          <ScalarProperty Name="isFranchisee" ColumnName="isFranchisee" />
+          <ScalarProperty Name="ContractStatus" ColumnName="ContractStatus" />
+          <ScalarProperty Name="ContractTerm" ColumnName="ContractTerm" />
+          <ScalarProperty Name="DateAdminClarif" ColumnName="DateAdminClarif" />
+          <ScalarProperty Name="DateBankApproval" ColumnName="DateBankApproval" />
+          <ScalarProperty Name="DateBankClarif" ColumnName="DateBankClarif" />
+          <ScalarProperty Name="DateBankSubmission" ColumnName="DateBankSubmission" />
+          <ScalarProperty Name="DateCompletedDocs" ColumnName="DateCompletedDocs" />
+          <ScalarProperty Name="File201No" ColumnName="File201No" />
+          <ScalarProperty Name="MSOSubmissionDate" ColumnName="MSOSubmissionDate" />
+          <ScalarProperty Name="ReleaseDateOrientationKit" ColumnName="ReleaseDateOrientationKit" />
+          <ScalarProperty Name="ReturnDateOrientationKit" ColumnName="ReturnDateOrientationKit" />
+          <ScalarProperty Name="SalesBlitz" ColumnName="SalesBlitz" />
+          <ScalarProperty Name="SchemeType" ColumnName="SchemeType" />
+          <ScalarProperty Name="DateDeclined" ColumnName="DateDeclined" />
+          <ScalarProperty Name="DateCallOutJointCall" ColumnName="DateCallOutJointCall" />
+          <ScalarProperty Name="AMPGHLReferralCode" ColumnName="AMPGHLReferralCode" />
+          <ScalarProperty Name="TypeOfCallReferral" ColumnName="TypeOfCallReferral" />
+          <ScalarProperty Name="PersonInCharge" ColumnName="PersonInCharge" />
+          <ScalarProperty Name="DecisionMaker" ColumnName="DecisionMaker" />
+          <ScalarProperty Name="AMPApprovalDate" ColumnName="AMPApprovalDate" />
+          <ScalarProperty Name="ApprovedLoanAmount" ColumnName="ApprovedLoanAmount" />
+          <ScalarProperty Name="RegistrationID" ColumnName="RegistrationID" />
+          <ScalarProperty Name="ReferredByMSE" ColumnName="ReferredByMSE" />
+          <ScalarProperty Name="ReferredByMSO" ColumnName="ReferredByMSO" />
+          <ScalarProperty Name="TeleSales" ColumnName="TeleSales" />
+          <ScalarProperty Name="ContractTerminationDate" ColumnName="ContractTerminationDate" />
+          <ScalarProperty Name="Coordinates" ColumnName="Coordinates" />
+          <ScalarProperty Name="DocumentScheme" ColumnName="DocumentScheme" />
+          <ScalarProperty Name="MSESubmissionDate" ColumnName="MSESubmissionDate" />
+          <ScalarProperty Name="MSPRentalCutOff" ColumnName="MSPRentalCutOff" />
+          <ScalarProperty Name="MSPQuotaCutOff" ColumnName="MSPQuotaCutOff" />
+          <ScalarProperty Name="MSPRentalBilling" ColumnName="MSPRentalBilling" />
+          <ScalarProperty Name="MSPQuotaBilling" ColumnName="MSPQuotaBilling" />
+          <ScalarProperty Name="merchant_status_id" ColumnName="merchant_status_id" />
+          <ScalarProperty Name="CreditTerms" ColumnName="CreditTerms" />
+          <ScalarProperty Name="InternalCompanyID" ColumnName="InternalCompanyID" />
+          <ScalarProperty Name="AutosendInvoice" ColumnName="AutosendInvoice" />
+          <ScalarProperty Name="AutosendReceipt" ColumnName="AutosendReceipt" />
+          <ScalarProperty Name="ADAMaxCap" ColumnName="ADAMaxCap" />
+          <ScalarProperty Name="ADAFrequency" ColumnName="ADAFrequency" />
+          <ScalarProperty Name="CollectionBankID" ColumnName="CollectionBankID" />
+          <ScalarProperty Name="BankFindingsRemarks" ColumnName="BankFindingsRemarks" />
+          <ScalarProperty Name="CollectionBankAccount" ColumnName="CollectionBankAccount" />
+          <ScalarProperty Name="CollectionBankADAFee" ColumnName="CollectionBankADAFee" />
+          <ScalarProperty Name="ADABankID" ColumnName="ADABankID" />
+          <ScalarProperty Name="ADAStatus" ColumnName="ADAStatus" />
+          <ScalarProperty Name="ADAmerchantbankcode" ColumnName="ADAmerchantbankcode" />
+          <ScalarProperty Name="ADAEnabled" ColumnName="ADAEnabled" />
+          <ScalarProperty Name="AutosendCreditNote" ColumnName="AutosendCreditNote" />
+          <ScalarProperty Name="HighRiskIndustry" ColumnName="HighRiskIndustry" />
+          <ScalarProperty Name="RiskLevelClassification" ColumnName="RiskLevelClassification" />
+          <ScalarProperty Name="SettlementFrequency" ColumnName="SettlementFrequency" />
+          <ScalarProperty Name="SettlementFrequencyValue1" ColumnName="SettlementFrequencyValue1" />
+          <ScalarProperty Name="DateMerchantSigned" ColumnName="DateMerchantSigned" />
+          <ScalarProperty Name="GIRO_merchantbankcode" ColumnName="GIRO_merchantbankcode" />
+          <ScalarProperty Name="GIRO_bankcode" ColumnName="GIRO_bankcode" />
+          <ScalarProperty Name="GIROEnabled" ColumnName="GIROEnabled" />
+          <ScalarProperty Name="GIROStatus" ColumnName="GIROStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_MerchantFirstContact">
+      <EntityTypeMapping TypeName="M3Model.vw_MerchantFirstContact">
+        <MappingFragment StoreEntitySet="vw_MerchantFirstContact">
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="SeqID" ColumnName="SeqID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="mobile_phone_no" ColumnName="mobile_phone_no" />
+          <ScalarProperty Name="office_phone_no" ColumnName="office_phone_no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_SOAMonthlyHeaders">
+      <EntityTypeMapping TypeName="M3Model.vw_SOAMonthlyHeaders">
+        <MappingFragment StoreEntitySet="vw_SOAMonthlyHeaders">
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="syear" ColumnName="syear" />
+          <ScalarProperty Name="smonth" ColumnName="smonth" />
+          <ScalarProperty Name="registration_name" ColumnName="registration_name" />
+          <ScalarProperty Name="tax_id" ColumnName="tax_id" />
+          <ScalarProperty Name="biz_address" ColumnName="biz_address" />
+          <ScalarProperty Name="biz_city" ColumnName="biz_city" />
+          <ScalarProperty Name="BroughtForward" ColumnName="BroughtForward" />
+          <ScalarProperty Name="TotalTransactions" ColumnName="TotalTransactions" />
+          <ScalarProperty Name="TotalCBRF" ColumnName="TotalCBRF" />
+          <ScalarProperty Name="TotalTransactionAdjustment" ColumnName="TotalTransactionAdjustment" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="LessPaid" ColumnName="LessPaid" />
+          <ScalarProperty Name="CarriedForward" ColumnName="CarriedForward" />
+          <ScalarProperty Name="total_fraud_netamount" ColumnName="total_fraud_netamount" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+          <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+          <ScalarProperty Name="AddressLine3" ColumnName="AddressLine3" />
+          <ScalarProperty Name="taxid" ColumnName="taxid" />
+          <ScalarProperty Name="businessregistrationid" ColumnName="businessregistrationid" />
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+          <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+          <ScalarProperty Name="DocID" ColumnName="DocID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_SOAMonthlyTransaction">
+      <EntityTypeMapping TypeName="M3Model.vw_SOAMonthlyTransaction">
+        <MappingFragment StoreEntitySet="vw_SOAMonthlyTransaction">
+          <ScalarProperty Name="settlement_date" ColumnName="settlement_date" />
+          <ScalarProperty Name="MERCHANT_ID" ColumnName="MERCHANT_ID" />
+          <ScalarProperty Name="TRANSACTIONCODE" ColumnName="TRANSACTIONCODE" />
+          <ScalarProperty Name="txnAmount" ColumnName="txnAmount" />
+          <ScalarProperty Name="MDR" ColumnName="MDR" />
+          <ScalarProperty Name="GST" ColumnName="GST" />
+          <ScalarProperty Name="AmountSectionA" ColumnName="AmountSectionA" />
+          <ScalarProperty Name="AmountSectionB" ColumnName="AmountSectionB" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

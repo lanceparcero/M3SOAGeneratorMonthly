@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SOAEmailSenderMonthly.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SerialNum" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">E43Y-7VXA-CT23-1MYG</Value>
+    </Setting>
+    <Setting Name="DestinationPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">E:\M3Systemfiles\SOAFiles\Destination</Value>
+    </Setting>
+    <Setting Name="SourceFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">E:\M3Systemfiles\SOAFiles\TemplateDir</Value>
+    </Setting>
+    <Setting Name="Body" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">
+          &lt;p&gt;Dear Valued Customer,&lt;/p&gt;
+          &lt;p&gt;Please find attached the Statement of Account for your perusal.&lt;/p&gt;
+          &lt;p&gt;For further enquiries, please e-mail us at sales.eghl@ghl.com or contact us at +603-62865555.&lt;/p&gt;
+          &lt;p&gt;Thank you&lt;/p&gt;
+        </Value>
+    </Setting>
+    <Setting Name="Subject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Monthly Statement of Account</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
